@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{2349f523-bacd-4a70-81ed-e367fb84c816}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{bda1e07a-d3ae-4147-9911-c20e3c264e60}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{b1ccaa9a-89d0-4536-8185-a90d7044592b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{0c92b4b8-eb62-41c8-8321-c9fb28ce1985}</UniqueIdentifier>
+      <Extensions>vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinuxProject4.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LinuxProject4-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="LinuxProject4-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
